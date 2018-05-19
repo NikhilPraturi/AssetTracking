@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Asset Tracking</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_activity_add_new_asset">AddNewAsset</string>
+    <string name="title_activity_homae_page_latest">HomaePageLatest</string>
+</resources>

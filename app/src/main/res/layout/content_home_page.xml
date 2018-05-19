@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.kanyakubjbrahminsamiti.akhil.assettracking.HomePage"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#D2D2D2"
+        android:id="@+id/seachlayout"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="#E7E7E7"
+            android:textColor="#9C9C9C"
+            android:text="Asset Search"
+            tools:layout_editor_absoluteX="116dp"
+            tools:layout_editor_absoluteY="26dp" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/recycleview"
+       android:layout_below="@+id/seachlayout"
+        android:background="#555555"
+
+        android:layout_height="match_parent">
+
+
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.kanyakubjbrahminsamiti.akhil.assettracking.HomaePageLatest"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:id="@+id/ok"
+        android:background="@android:color/black">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="MobileAsset"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/ic_android_black_24dp1" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/ok"
+        android:background="#D1D1D1"
+        android:id="@+id/assestt"
+        android:layout_height="45sp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginRight="14sp"
+            android:layout_marginLeft="14sp"
+            android:layout_marginTop="6dp"
+            android:background="#E7E7E7"
+            android:layout_marginBottom="6dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Asset Search"
+                android:gravity="center"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/assestt"
+
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:weightSum="9"
+            android:background="@android:color/black"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:background="#545454"
+                android:layout_height="40dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/ima"
+                    android:layout_marginLeft="6dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/ic_android_black_24dp1"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_toRightOf="@id/ima"
+                    android:layout_marginLeft="8dp"
+                    android:text="New Asset"
+                    android:textColor="@android:color/white"
+                    android:textSize="15.4sp"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:background="#545454"
+                android:layout_marginTop="1dp"
+                android:layout_height="40dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/ima1"
+                    android:layout_marginLeft="6dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/ic_android_black_24dp1"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_toRightOf="@id/ima1"
+                    android:layout_marginLeft="8dp"
+                    android:text="New Asset"
+                    android:textColor="@android:color/white"
+                    android:textSize="15.4sp"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:background="#545454"
+                android:layout_marginTop="1dp"
+                android:layout_height="40dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/ima2"
+                    android:layout_marginLeft="6dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/ic_android_black_24dp1"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_toRightOf="@id/ima2"
+                    android:layout_marginLeft="8dp"
+                    android:text="New Asset"
+                    android:textColor="@android:color/white"
+                    android:textSize="15.4sp"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:background="#545454"
+                android:layout_marginTop="1dp"
+                android:layout_height="40dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/ima3"
+                    android:layout_marginLeft="6dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/ic_android_black_24dp1"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_toRightOf="@id/ima3"
+                    android:layout_marginLeft="8dp"
+                    android:text="New Asset"
+                    android:textColor="@android:color/white"
+                    android:textSize="15.4sp"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="1dp"
+                android:background="#545454"
+                android:layout_height="40dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/ima4"
+                    android:layout_marginLeft="6dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/ic_android_black_24dp1"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_toRightOf="@id/ima4"
+                    android:layout_marginLeft="8dp"
+                    android:text="New Asset"
+                    android:textColor="@android:color/white"
+                    android:textSize="15.4sp"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="1dp"
+                android:background="#545454"
+                android:layout_height="40dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/ima5"
+                    android:layout_marginLeft="6dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/ic_android_black_24dp1"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_toRightOf="@id/ima5"
+                    android:layout_marginLeft="8dp"
+                    android:text="New Asset"
+                    android:textColor="@android:color/white"
+                    android:textSize="15.4sp"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="1dp"
+                android:background="#545454"
+                android:layout_height="40dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/ima6"
+                    android:layout_marginLeft="6dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/ic_android_black_24dp1"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_toRightOf="@id/ima6"
+                    android:layout_marginLeft="8dp"
+                    android:text="New Asset"
+                    android:textColor="@android:color/white"
+                    android:textSize="15.4sp"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="1dp"
+                android:background="#545454"
+                android:layout_height="40dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/ima7"
+                    android:layout_marginLeft="6dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/ic_android_black_24dp1"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_toRightOf="@id/ima7"
+                    android:layout_marginLeft="8dp"
+                    android:text="New Asset"
+                    android:textColor="@android:color/white"
+                    android:textSize="15.4sp"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="1dp"
+                android:background="#545454"
+                android:layout_height="40dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/ima8"
+                    android:layout_marginLeft="6dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/ic_android_black_24dp1"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_toRightOf="@id/ima8"
+                    android:layout_marginLeft="8dp"
+                    android:text="New Asset"
+                    android:textColor="@android:color/white"
+                    android:textSize="15.4sp"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
